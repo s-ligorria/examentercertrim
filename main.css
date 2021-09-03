@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* INICIO HEADER */
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(204, 176, 153);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+.menu ul{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.menu ul li{
+    margin: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(43, 22, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    color: rgb(240, 216, 197);
+    background-color: rgba(43, 22, 8, 0.603);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 250ms;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+}
+/* FIN HEADER */
+
+/* INICIO CONTENIDO */
+.fondo1{
+    width: 100%;
+    background-image: url('./images/pexels-taryn-elliott-4440214.jpg');
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.texto1{
+    margin: 0px;
+    padding: 20px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 15px;
+}
+
+.imagenes{
+    background-color: rgba(43, 22, 8, 0.808);
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.imagenes img{
+    width: 900px;
+    height: 350px;
+}
+
+.imagenes2{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes2 img{
+    width: 450px;
+    height: 250px;
+}
+
+.boton{
+    text-decoration: none;
+    color: rgb(43, 22, 8);
+    background-color: rgb(240, 216, 197);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: rgb(43, 22, 8);
+    color: rgb(240, 216, 197);
+    transition: 250ms;
+}
+/* FIN CONTENIDO */
